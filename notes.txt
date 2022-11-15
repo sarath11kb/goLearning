@@ -1,0 +1,16 @@
+- named return types will use default values if not used
+-
+
+
+
+### need to look at
+
+- slices
+- time
+- goroot and gopath
+- type conversions
+- init
+
+### Pointers
+Unlike C, Go has no pointer arithmetic.
+

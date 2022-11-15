@@ -34,6 +34,37 @@ func Defertest() {
 	fmt.Println("defer completed with i = ", i)
 }
 
+func DeferTest2() {
+
+}
+
+func getSum(a, b int) {
+	var sum = (1 + a + b + int(32.0)*4/9)
+	//	var sum = (1 + a + b) * 40.00 / 9
+
+	fmt.Printf("type is %T", sum)
+}
+
+func EvalOrder() {
+	fmt.Println()
+	fmt.Println(1 / 3 * 4)
+	fmt.Println(4 + 1/3)
+
+}
+
 func TypeConversion() {
+	x := 72
+	fmt.Println("int value ", x)
+	//make y float and it will give error that getsum needs float
+	y := 43
+	getSum(y, y)
+
+}
+
+func Variables() {
+	name, age := "yelan", 23
+	fmt.Println(name, " ", age)
+}
+func StringFunctions() {
 
 }

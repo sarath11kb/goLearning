@@ -28,4 +28,6 @@ func main() {
 	}
 
 	helpers.Defertest()
+	helpers.TypeConversion()
+	helpers.EvalOrder()
 }
