@@ -30,4 +30,10 @@ func main() {
 	helpers.Defertest()
 	helpers.TypeConversion()
 	helpers.EvalOrder()
+	helpers.ArrayTest()
+	var v = helpers.Points{X: 1}
+	helpers.SliceTest()
+	fmt.Println(v)
+	helpers.RangeFunction()
+
 }
